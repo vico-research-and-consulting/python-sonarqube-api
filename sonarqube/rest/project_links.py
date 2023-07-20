@@ -10,7 +10,7 @@ from sonarqube.utils.common import GET, POST
 
 class SonarQubeProjectLinks(RestClient):
     """
-    SonarQube project badges Operations
+    SonarQube project links Operations
     """
 
     def __init__(self, **kwargs):
